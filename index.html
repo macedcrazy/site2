@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            background-color: gray;
+        }
+
+        .container{
+            display: grid;
+        }
+
+        header{
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: rgb(163, 138, 186);
+        }
+
+        .menu{
+            grid-column-start: 6;
+            grid-column-end: 12;
+            justify-content: center ;
+            gap: 20px;
+            
+        }
+
+        .imagem{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            
+        }
+        .principal{
+            grid-column-start: 4;
+            grid-column-end: 12;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align: justify;
+        }
+
+        footer{
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: blueviolet;
+            color: whitesmoke;
+            text-align: center;
+        }        
+       
+
+        ul {            
+            list-style-type: none;
+            color: blue;         
+
+        }  
+
+        a:link{
+            text-decoration: none;
+            padding: 8px 16px;
+            border: solid rgb(72, 66, 66) 1px;
+        }
+        
+        li{
+            float: left;
+        }
+
+        a:hover{
+            background-color: aqua;
+            border: solid red;
+        }
+
+        .img {
+            border: 1px solid whitesmoke;
+            border-radius: 1px;
+            padding: 1px;
+            margin-bottom: 1px;
+            
+        }
+
+        .img1{
+            width: 125px;
+            height: 115px;
+        }
+
+        @media all and (min-width: 35rem) {
+            body{
+                margin: 0;
+            }
+        }
+
+        .img{
+            max-width: 28rem;
+            margin: 1rem;
+        }
+
+        /*media query para dispositivos mpveis*/
+
+        @media only screen and (max-width: 767px) {
+            .wrapper{
+                grid-column-start: 1 ;
+                grid-column-end: 1;
+            }
+
+            .imagem{
+                grid-column-start: 1;
+                grid-column-end: 1;
+            }
+            .principal{
+                grid-column-start: 1;
+                grid-column-end: 1;
+            }
+        }
+            
+        
+    </style>
+</head>
+<body>
+    <header class="container">
+        <h1 style="color: whitesmoke; text-align: center;">Biografia</h1>
+        <b></b>
+    </header>
+    <nav class="container menu">
+        <ul>
+            <li><a href="index.html">Biografia</a></li>
+            <li><a href="obras.html">Obras</a></li>
+            <li><a href="Curiosodades.html">Curiosidades</a></li>
+        </ul>
+
+    </nav>
+    <div class="container wrapper" >
+        <aside class="imagem">
+             <img src="leo.jpg" width="300px" alt="Leonardo da Vinci">    
+             <div class="info">
+                <p><strong>Ocupação: </strong> Pintor Italiano</p>
+                <p>
+                    <strong>Data de Nascimento: </strong>
+                    15/04/1452
+                </p>
+                <p><strong>Data da Morte: </strong>02/05/1519 (aos 67 anos)</p>
+            </div>           
+        </aside>
+        <section class="principal">
+            <h1>
+                Leonardo da Vinci
+                
+            </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quos porro nobis est, quaerat maxime placeat mollitia perspiciatis! Accusantium, optio ea? Omnis eaque soluta quasi excepturi veritatis repellat voluptatum quisquam exercitationem nobis beatae obcaecati animi corporis, deleniti a ea perferendis quibusdam vero reprehenderit totam id rerum? Quidem ea neque accusamus distinctio quod. Fugit esse voluptate inventore labore accusantium nam beatae possimus. Doloremque ullam cupiditate excepturi aspernatur nam unde provident beatae rem esse dolores impedit, quas a saepe eaque optio itaque deserunt cum. Pariatur esse debitis corrupti odio illum? Numquam dolores consequatur vero voluptatum quisquam placeat, molestiae sapiente, necessitatibus delectus odit minus. Culpa doloremque quisquam quod atque eos hic cumque! Vitae est, animi quisquam iusto possimus ipsum? Ullam commodi ipsa doloribus harum delectus consequuntur aspernatur hic tempora, excepturi iusto, ipsam nisi voluptas exercitationem. Voluptatum iste possimus commodi aut. Consequatur inventore odio debitis minus ab eum autem provident voluptas ea deleniti? Quam sed quaerat nulla, iusto eos iste alias in tempora necessitatibus. Reprehenderit ab deleniti debitis provident? Ab sunt molestias dolor corrupti reiciendis ipsa dolorum. Saepe, ut, dolorem voluptates consequatur perferendis nesciunt voluptas dolore accusamus a officia accusantium numquam quaerat corporis voluptatem? Maiores quisquam pariatur deleniti doloribus commodi aliquid minus quasi quae nam soluta? Modi adipisci nihil pariatur dignissimos ut ipsum tempore odio, temporibus repellendus eligendi facilis id nesciunt minima ratione quibusdam nisi? Nostrum facere fugiat dolore obcaecati quis magnam eos ut facilis praesentium. Eius consectetur perferendis nobis iste architecto ullam pariatur quibusdam aperiam praesentium earum voluptas quia dolores est accusamus distinctio deserunt repellendus iusto fugit suscipit nam omnis, dolor voluptate, nesciunt totam. A eligendi assumenda iste cumque ducimus mollitia, eos quo ipsa quis quia consectetur, reprehenderit voluptates deserunt soluta, atque expedita! Quo provident molestias minus a! Similique porro nobis deserunt repellendus earum autem provident architecto libero quo. Temporibus nemo, amet deleniti nulla neque consequatur esse nihil voluptate maiores quae dignissimos magnam beatae quibusdam corrupti optio modi ut numquam sunt. Nulla repudiandae vel adipisci ad aperiam laudantium mollitia dolores ullam reiciendis quia voluptatibus, doloremque repellendus, beatae tenetur, dicta placeat voluptates dolor sunt voluptatum! Esse, neque perferendis sapiente quidem labore, beatae, ipsum facere quibusdam quod error repudiandae eos aperiam enim modi rem officiis aliquid consequuntur? Rerum dignissimos eligendi aspernatur facere cumque? Quae unde sunt aliquid, ea libero vel ipsum eligendi, quaerat laboriosam inventore dolorum officia porro obcaecati laudantium ipsa optio consequuntur illum accusantium quos soluta! Repellendus inventore voluptatum perspiciatis id amet architecto temporibus magni neque, perferendis numquam autem ipsum iste iure excepturi quaerat nostrum minima. Inventore aliquid alias dolore tempore, obcaecati repudiandae doloremque natus atque iusto necessitatibus aperiam earum deserunt saepe suscipit animi rem aliquam cumque eos tenetur. Quos temporibus dolore sit sequi iste facilis repellat iusto ipsa architecto, mollitia cumque, perferendis omnis laborum reiciendis optio expedita ipsum inventore error soluta eaque minima velit, accusamus ducimus. Assumenda totam maxime vitae quibusdam sit corrupti dignissimos nisi in labore id harum eaque deleniti autem, cum ut nobis laboriosam? Odio sequi molestiae temporibus, minima obcaecati doloremque? Non odit id molestias facere expedita nobis eveniet aliquam cupiditate.</p>
+
+        </section>
+
+    </div>
+    <footer class="container">
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ipsa tenetur quam aliquid corrupti necessitatibus dolorum, repellendus odio eaque aut culpa ab ipsam voluptate accusamus provident distinctio sequi explicabo ratione! Fugit, architecto quae temporibus ducimus rem exercitationem quisquam! Suscipit quae numquam quod accusamus quos ut magnam officiis recusandae non tempore.</p>
+
+    </footer>
+</body>
+</html>
